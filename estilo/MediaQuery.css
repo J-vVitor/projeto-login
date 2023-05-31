@@ -30,6 +30,13 @@
      }
 
 
+     form a.botao{
+        width: 58%;
+        margin-left: 21%;
+        
+     }
+
+
     
 }
 
@@ -56,5 +63,12 @@
         float: left;
         width: 50%;
     }
+
+    form a.botao{
+        width: 43%;
+        margin-left: 28%;
+        
+     }
     
+
 }

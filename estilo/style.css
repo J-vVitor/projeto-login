@@ -35,10 +35,10 @@ html,body{
    section div#imagem{
     display: block;
     background-image: url(../imagens/pexels-king-ho-15825865.jpg);
-    height: 260px;
+    height: 200px;
     background-position: center center;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
    }
 
    section div#formulario{
@@ -50,4 +50,44 @@ html,body{
 
    h1{
     font-size:1.5em;
+   }
+
+
+
+   form input[type=submit]{
+    width: 200px;
+    font-size: 1.2em;
+    padding: 2px;
+    background-color: rgb(31, 154, 90);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+    
+   }
+
+   form input[type=submit]:hover{
+    background-color:rgb(20, 101, 59) ; 
+}
+
+
+form a.botao{
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(31, 154, 90);
+    width: 66%;
+    margin-top: 2px;
+    font-size: 1.2em;
+    margin-left: 50px;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    height: 40px;
+   }
+
+   form a.botao:hover{
+    background-color: rgb(31, 154, 90) ;
+    color: white;
+    border: none;
    }
